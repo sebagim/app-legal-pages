@@ -10,6 +10,7 @@
     h1,h2,h3 { color:#00e5ff; }
     a { color:#00e5ff; }
     .card { background:#161616; border:1px solid #2a2a2a; border-radius:16px; padding:24px; }
+    .notice { background:#101820; border:1px solid #29434e; border-radius:12px; padding:16px 18px; margin:18px 0; }
     .footer { margin-top:32px; font-size:13px; color:#9e9e9e; }
   </style>
 </head>
@@ -34,6 +35,10 @@
 <li>Si el problema ocurre con la app en pantalla, en segundo plano o con el teléfono bloqueado.</li>
 </ul>
 
+<h2>Diagnóstico de AlertaRadar</h2>
+<p>AlertaRadar incluye una función de diagnóstico accesible desde la pantalla de Información. Esta herramienta permite comprobar aspectos como permisos de ubicación y notificaciones, estado del monitoreo, volumen, vibración, condiciones básicas de batería y una simulación controlada de alerta de radar.</p>
+<p>Si tenés problemas con las alertas, ejecutá primero el diagnóstico con el vehículo detenido en un lugar seguro. Un resultado correcto indica que la configuración básica parece adecuada, pero no garantiza que todos los radares puedan ser detectados o notificados en todas las circunstancias.</p>
+
 <h2>Preguntas frecuentes</h2>
 
 <h3>¿Por qué AlertaRadar necesita ubicación?</h3>
@@ -49,13 +54,39 @@
 <p>Android restringe la apertura automática de aplicaciones desde segundo plano o con el teléfono bloqueado. AlertaRadar puede mostrar avisos y accesos para que el usuario abra una aplicación configurada cuando el sistema lo permita.</p>
 
 <h3>¿Los radares están siempre actualizados?</h3>
-<p>No se puede garantizar que la información sea completa o esté actualizada en todo momento. AlertaRadar puede conservar una copia local para continuar funcionando sin conexión, por lo que el usuario debe respetar siempre la señalización vial vigente.</p>
+<p>No. La información puede ser incompleta, contener errores o quedar desactualizada. AlertaRadar puede conservar una copia local para continuar funcionando sin conexión, por lo que el usuario debe respetar siempre la señalización vial vigente y no depender exclusivamente de la aplicación.</p>
+
+<h3>¿Por qué podría no recibir una alerta de radar?</h3>
+<p>Una alerta puede verse afectada por distintos factores, entre ellos:</p>
+<ul>
+<li>Precisión insuficiente o pérdida temporal de señal GPS.</li>
+<li>Permisos de ubicación o notificaciones desactivados.</li>
+<li>Restricciones de batería o de ejecución en segundo plano aplicadas por Android o por el fabricante del dispositivo.</li>
+<li>Volumen muy bajo, sonido desactivado o configuración de alertas.</li>
+<li>Falta de conexión cuando sea necesaria una actualización.</li>
+<li>Información de radares incompleta, incorrecta o desactualizada.</li>
+<li>Cambios recientes en la ubicación, sentido, límite de velocidad o características de un radar.</li>
+</ul>
 
 <h3>¿Qué hago si no recibo alertas?</h3>
-<p>Verificá que AlertaRadar tenga permiso de ubicación y notificaciones, que el monitoreo esté activo y que Android no esté restringiendo excesivamente la ejecución de la aplicación por ahorro de batería.</p>
+<p>Abrí <strong>Información &gt; Diagnóstico de AlertaRadar</strong> y ejecutá las comprobaciones con el vehículo detenido. Revisá especialmente ubicación, notificaciones, monitoreo, volumen, vibración y las restricciones de batería del dispositivo.</p>
+<p>Si el diagnóstico no muestra problemas y la situación continúa, contactanos indicando el modelo de celular, versión de Android, versión de AlertaRadar y, si es posible, el radar o zona donde ocurrió el inconveniente.</p>
+
+<h3>¿AlertaRadar garantiza que voy a recibir un aviso antes de cada radar?</h3>
+<p>No. AlertaRadar es una herramienta de asistencia y no puede garantizar que todos los radares estén registrados, actualizados o sean detectados y notificados en todas las circunstancias.</p>
+
+<h3>¿AlertaRadar garantiza evitar multas?</h3>
+<p>No. La aplicación no garantiza evitar multas. El conductor es responsable de respetar en todo momento la señalización, los límites de velocidad y las normas de tránsito vigentes.</p>
 
 <h2>Seguridad durante la conducción</h2>
-<p>No configures ni manipules AlertaRadar mientras conducís. Realizá los ajustes antes de iniciar el viaje o con el vehículo detenido en un lugar seguro. La aplicación es una ayuda complementaria y no sustituye la atención del conductor ni la señalización y normativa de tránsito.</p>
+<p>No configures, pruebes ni manipules AlertaRadar mientras conducís. Realizá los ajustes y el diagnóstico antes de iniciar el viaje o con el vehículo detenido en un lugar seguro. La aplicación es una ayuda complementaria y no sustituye la atención del conductor ni la señalización y normativa de tránsito.</p>
+
+<h2>Limitaciones del servicio</h2>
+<div class="notice">
+<p>La información sobre radares, límites de velocidad y ubicaciones puede ser incompleta, contener errores o quedar desactualizada.</p>
+<p>AlertaRadar no garantiza la detección o notificación de todos los radares ni el funcionamiento ininterrumpido de las alertas. La precisión del GPS, las restricciones del dispositivo, los permisos, el ahorro de batería, la configuración del sistema, la conectividad y los cambios en la infraestructura vial pueden afectar el funcionamiento.</p>
+<p>El uso de AlertaRadar no constituye una garantía de aviso previo ante radares o controles de velocidad, no exime al usuario de sus responsabilidades como conductor y no garantiza evitar multas.</p>
+</div>
 
 <h2>Privacidad</h2>
 <p>Podés consultar la Política de Privacidad de AlertaRadar en la página correspondiente publicada junto con este sitio de soporte.</p>
